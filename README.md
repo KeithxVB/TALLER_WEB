@@ -1,4 +1,4 @@
-🌐 TALLER WEB
+🌐 TALLER WEB:
 Este es un proyecto web hecho como práctica para aprender a usar HTML.
 
 Ver la página publicada aquí:  
