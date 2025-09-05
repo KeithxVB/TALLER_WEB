@@ -6,96 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HGSN page</title>
     <link rel="icon" type="image/png" href="images/favicon.jpeg">
-
 </head>
 
-<body style="background-color: #98d5f5;">
+<body style="background-color: #98d5f5; font-family: Helvetica, Arial, sans-serif; margin: 0;">
 
     <!--BANNER-->
     <header style="display: flex; justify-content: center; align-items: center; background: #98d5f5; padding: 10px;">
-        <img src="images/logo.png" alt="Decoración izquierda" style="height: 300px;">
-        <img src="images/banner.jpeg" alt="Banner principal" style="height: 300px;">
-        <img src="images/logo.png" alt="Decoración derecha" style="height: 300px;">
+        <img src="images/logo.png" alt="Logotipo decorativo izquierdo" style="height: 300px;">
+        <img src="images/banner.jpeg" alt="Banner principal de Hikaru Ga Shinda Natsu" style="height: 300px;">
+        <img src="images/logo.png" alt="Logotipo decorativo derecho" style="height: 300px;">
     </header>
 
     <!--NAVEGACIÓN-->
-    <nav style="text-align: center; margin: 20px;">
-        <a href="index.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Inicio</b></a>
-        <a href="about.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Acerca de la obra</b></a>
-        <a href="sinopsis.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Sinopsis</b></a>
-        <a href="mainCharacters.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Personajes principales</b></a>
-        <a href="sideCharacters.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Personajes secundarios</b></a>
-        <a href="manga.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Manga</b></a>
-        <a href="anime.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Anime</b></a>
-        <a href="gallery.html" style="background: white; padding: 10px 20px; margin: 5px; border-radius: 10px; text-decoration: none; color: black; box-shadow: 2px 2px 5px gray;"><b>Galería</b></a>
+    <nav role="navigation" aria-label="Menú principal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px;">
+        <a href="index.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Inicio</b></a>
+        <a href="about.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Acerca de la obra</b></a>
+        <a href="sinopsis.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Sinopsis</b></a>
+        <a href="mainCharacters.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Personajes principales</b></a>
+        <a href="sideCharacters.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Personajes secundarios</b></a>
+        <a href="manga.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Manga</b></a>
+        <a href="anime.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Anime</b></a>
+        <a href="officialArt.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Arte Oficial</b></a>
+        <a href="news.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Noticias</b></a>
+        <a href="author.html" style="background: #ffffff; padding: 10px 20px; border-radius: 10px; text-decoration: none; color: #000000; box-shadow: 2px 2px 5px #808080;"><b>Acerca del autor</b></a>
     </nav>
 
-
-    <main>
+    <!--CONTENIDO PRINCIPAL-->
+    <main style="max-width: 1200px; margin: auto">
         <section>
-
             <div style="text-align: center;">
-                <h1 style="font-size: 50px;"><b>Personajes Principales</b></h1>
+                <h1 style="font-size: 50px; margin-bottom: 20px;"><b>Personajes principales</b></h1>
             </div>
 
             <!-- Contenedor de personajes -->
             <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 30px;">
 
                 <!-- Personaje 1 -->
-                <div style="background: white; border-radius: 10px; padding: 15px; width: 350px; text-align: center; box-shadow: 2px 2px 8px gray;">
-                    <img src="images/yoshiki2.jpg" alt="Yoshiki" style="width: 100%; border-radius: 10px;">
-                    <h3>Yoshiki Tsujinaka</h3>
-                    <p>
+                <article style="background: #ffffff; border-radius: 12px; padding: 20px; width: 350px; text-align: center; box-shadow: 2px 4px 10px #808080;">
+                    <img src="images/yoshiki2.jpg" alt="Retrato de Yoshiki Tsujinaka" style="width: 100%; border-radius: 10px;">
+                    <h2 style="margin-top: 15px;">Yoshiki Tsujinaka</h2>
+                    <p style="text-align: justify;">
                         Yoshiki es un chico reservado que evita hablar de sí mismo y suele reprimir lo que siente, aunque su incomodidad se refleja en su rostro. Tiene una relación complicada con su aldea: a pesar de sentir afecto por su familia y amigos, también se siente asfixiado y desea marcharse.
-                        La muerte de su mejor amigo lo marcó profundamente, al punto de aceptar convivir con la criatura que ocupa el cuerpo de Hikaru con tal de no perderlo. Esta decisión lo llena de culpa y lo lleva a pensamientos negativos y depresivos, pero también refleja su fuerte apego y su dificultad para dejar atrás el pasado.                    
+                        La muerte de su mejor amigo lo marcó profundamente, al punto de aceptar convivir con la criatura que ocupa el cuerpo de Hikaru con tal de no perderlo.
                     </p>
-
-                    <ul style="text-align: left;">
-                        <li><b>Edad: 17 años</b></li>
-                        <li><b>Fecha de nacimiento: 20 de abrill, 2003</b></li>
-                        <li><b>Pueblo natal: Kibutachi</b></li>
-                        <li><b>Especie: Humano</b></li>
-                        <li><b>Género: Masculino</b></li>
-                        <li><b>Altura: 1.75 m</b></li>
-                        <li><b>Color de ojos: Gris pizarra</b></li>
-                        <li><b>Color de cabello: Negro</b></li>   
+                    <ul style="text-align: left; padding-left: 20px;">
+                        <li><b>Edad:</b> 17 años</li>
+                        <li><b>Fecha de nacimiento:</b> 20 de abril, 2003</li>
+                        <li><b>Pueblo natal:</b> Kibutachi</li>
+                        <li><b>Especie:</b> Humano</li>
+                        <li><b>Género:</b> Masculino</li>
+                        <li><b>Altura:</b> 1.75 m</li>
+                        <li><b>Color de ojos:</b> Gris pizarra</li>
+                        <li><b>Color de cabello:</b> Negro</li>
                     </ul>
-                </div>
+                </article>
 
                 <!-- Personaje 2 -->
-                <div style="background: white; border-radius: 10px; padding: 15px; width: 350px; text-align: center; box-shadow: 2px 2px 8px gray;">
-                    <img src="images/hikaru2.jpg" alt="Hikaru" style="width: 100%; border-radius: 10px;">
-
-                    <h3>"Hikaru"</h3>
-
-                    <p>
-                       “Hikaru” es alegre, curioso y expresivo, aunque a veces infantil y descontrolado con sus emociones. Tras obtener el cuerpo de Hikaru, busca desesperadamente ser aceptado y desarrolla un fuerte apego hacia Yoshiki, mostrándose protector con él.
-                        No experimenta atracción romántica ni instintos humanos como el hambre o el miedo a la muerte. Considera la vida y la muerte como lo mismo y no ve mal en matar si es necesario para proteger su secreto. Sin embargo, conserva el conocimiento de cómo funcionan los sentimientos e impulsos humanos.
-                        Posee instintos propios de su naturaleza, en especial el deseo de consumir almas humanas, algo que describe como hermoso y reconfortante.
-                    </p>   
-                    
-                    <ul style="text-align: left;">
-                        <li><b>Edad: 270+</b></li>
-                        <li><b>Fecha de nacimiento: Desconocido</b></li>
-                        <li><b>Pueblo natal: Desconocido</b></li>
-                        <li><b>Especie: Ilegitimo</b></li>
-                        <li><b>Género: Masculino</b></li>
-                        <li><b>Altura: 1.65 m</b></li>
-                        <li><b>Color de ojos: Gris (iris), rojo (pupila)</b></li>
-                        <li><b>Color de cabello: Blanco</b></li>   
+                <article style="background: #ffffff; border-radius: 12px; padding: 20px; width: 350px; text-align: center; box-shadow: 2px 4px 10px #808080;">
+                    <img src="images/hikaru2.jpg" alt="Retrato de Hikaru" style="width: 100%; border-radius: 10px;">
+                    <h2 style="margin-top: 15px;">"Hikaru"</h2>
+                    <p style="text-align: justify;">
+                        “Hikaru” es alegre, curioso y expresivo, aunque a veces infantil. Tras obtener el cuerpo de Hikaru, busca desesperadamente ser aceptado y desarrolla un fuerte apego hacia Yoshiki.
+                        No experimenta atracción romántica ni instintos humanos como el hambre o el miedo a la muerte, pero conserva el conocimiento de cómo funcionan los sentimientos humanos.
+                    </p>
+                    <ul style="text-align: left; padding-left: 20px;">
+                        <li><b>Edad:</b> 270+</li>
+                        <li><b>Fecha de nacimiento:</b> Desconocido</li>
+                        <li><b>Pueblo natal:</b> Desconocido</li>
+                        <li><b>Especie:</b> Ilegítimo</li>
+                        <li><b>Género:</b> Masculino</li>
+                        <li><b>Altura:</b> 1.65 m</li>
+                        <li><b>Color de ojos:</b> Gris (iris), rojo (pupila)</li>
+                        <li><b>Color de cabello:</b> Blanco</li>
                     </ul>
-
-                </div>
+                </article>
 
             </div>
         </section>
     </main>
 
-
     <!--PIE DE PÁGINA-->
-    <footer style="text-align: center; margin-top: 50px; font-size: 14px; color: gray;">
+    <footer style="text-align: center; margin-top: 50px; font-size: 14px; color: #808080;">
         © 2025 Mi página sobre Hikaru Ga Shinda Natsu
     </footer>
-    
+
 </body>
 </html>
