@@ -19,26 +19,26 @@ Con este proyecto apliqué conocimientos de **HTML5, etiquetas semánticas, mult
 
 ---
 
-## 📚 Aplicación de los temas de la unidad  
+##  Aplicación de los temas de la unidad  
 
-### 🔹 Estructura HTML5  
+###  Estructura HTML5  
 - Utilicé la estructura básica (`<!DOCTYPE html>`, `<html lang="es">`, `<head>`, `<body>`).  
 - Organicé el contenido en secciones bien definidas.  
 
-### 🔹 Etiquetas semánticas  
+###  Etiquetas semánticas  
 - `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>` para mejorar organización y legibilidad.  
 
-### 🔹 Textos, listas y enlaces  
+###  Textos, listas y enlaces  
 - Títulos jerárquicos (`#`, `##`, `###` en Markdown).  
 - Listas ordenadas y no ordenadas (`-`, `*`).  
 - Enlaces de navegación interna con `<a>`.  
 
-### 🔹 Imágenes, audio y video  
+###  Imágenes, audio y video  
 - Imágenes con `alt` descriptivos.  
 - Audio con `<audio controls>`.  
 - Videos de YouTube con `<iframe>` y archivos locales con `<video controls>`.  
 
-### 🔹 Buenas prácticas de accesibilidad y SEO  
+###  Buenas prácticas de accesibilidad y SEO  
 - `lang="es"` en `<html>`.  
 - Imágenes con descripciones significativas.  
 - Jerarquía clara de encabezados.  
@@ -46,15 +46,12 @@ Con este proyecto apliqué conocimientos de **HTML5, etiquetas semánticas, mult
 
 ---
 
-## 💭 Reflexión personal  
+##  Reflexión personal  
 Este proyecto me permitió:  
 
-✅ Comprender cómo combinar elementos de HTML5 en un sitio completo.  
-✅ Practicar diseño simétrico y centrado, especialmente con multimedia.  
-✅ Manejar unidades relativas (%) para adaptabilidad.  
-✅ Valorar la importancia de etiquetas semánticas y buenas prácticas de accesibilidad.  
-✅ Mejorar el SEO con jerarquía de títulos y descripciones.  
+ Comprender cómo combinar elementos de HTML5 en un sitio completo.  
+ Practicar diseño simétrico y centrado, especialmente con multimedia.  
+ Manejar unidades relativas (%) para adaptabilidad.  
+ Valorar la importancia de etiquetas semánticas y buenas prácticas de accesibilidad.  
+ Mejorar el SEO con jerarquía de títulos y descripciones.  
 
-En conclusión, aprendí a crear páginas web más **funcionales, accesibles y organizadas**, sentando una base sólida para futuros proyectos. 🚀  
-
----
